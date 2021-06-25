@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp">
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="90dp"
+        android:layout_height="90dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/text_view_id"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/namesv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nguyen van a"/>
+        <TextView
+            android:id="@+id/namsinh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="n1"/>
+        <TextView
+            android:id="@+id/quequan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hn"/>
+        <TextView
+            android:id="@+id/namhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nam nhat"/>
+
+    </LinearLayout>
+</RelativeLayout>
